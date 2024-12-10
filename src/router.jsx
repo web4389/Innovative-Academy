@@ -4,18 +4,16 @@ import AdminHome from "./Components/AdminHome";
 import Home from "./Components/Home";
 
 export const router = createBrowserRouter([
-
   {
     path: "/",
     element: <Login />,
   },
   {
-    path: "/Admin",
+    path: "/admin",
     element: <AdminHome />,
   },
   {
-    path: "/Home",
+    path: "/home",
     element: <Home />,
   },
-
 ]);
