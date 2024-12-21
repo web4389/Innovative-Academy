@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "react-scroll";
 import "../CSS/adminHome.css";
 import toast, { Toaster } from "react-hot-toast";
