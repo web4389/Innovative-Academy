@@ -7,7 +7,7 @@ import Loader from "./components/Loader";
 function App() {
   return (
     <>
-      <div className=" min-h-screen">
+      <div className="font-poppins_Regular">
         <Suspense
           fallback={
             <div className="w-[100%] flex justify-center items-center">

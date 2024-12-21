@@ -54,7 +54,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="flex justify-center min-h-screen items-center py-4 bg-white">
+      <div className="flex justify-center min-h-screen items-center py-4 bg-white font-poppins_Regular">
         <form className="form" onSubmit={handleSubmit}>
           {error.state && (
             <p className="mb-2 text-sm text-center text-red-500">{error.msg}</p>
