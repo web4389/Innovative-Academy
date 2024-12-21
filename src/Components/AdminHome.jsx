@@ -522,6 +522,8 @@ const AdminHome = () => {
               <option value={false}>Non-Active</option>
             </motion.select>
           </div>
+
+          {/* Showing Teachers Data */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 min-[1650px]:grid-cols-4 min-[2050px]:grid-cols-5 min-[2450px]:grid-cols-6 gap-y-8 gap-x-2 pt-2">
             {FilteredTeachersData.map((data) => {
               return (
