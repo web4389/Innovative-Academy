@@ -1,7 +1,7 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import { Suspense } from "react";
-import Loader from "./components/Loader";
+import Loader from "./Components/Loader";
 
 function App() {
   return (
