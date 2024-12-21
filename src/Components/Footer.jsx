@@ -33,7 +33,7 @@ const Footer = () => {
           }}
           style={{ color: "rgb(75, 85, 99)" }}
         >
-          © 2024 | Find News™ | Shilok kumar
+          © 2024 | InnovativeEDU™ | Shilok kumar
         </motion.p>
       </div>
     </footer>
