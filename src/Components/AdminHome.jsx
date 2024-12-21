@@ -392,7 +392,9 @@ const AdminHome = () => {
   };
 
   return (
-    <div className={`md:px-12 max-md:px-4 font-poppins_Regular`}>
+    <div
+      className={`md:px-12 max-md:px-4 font-poppins_Regular overflow-x-hidden`}
+    >
       {/* Notificationer */}
       <div>
         <Toaster />
