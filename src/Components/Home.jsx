@@ -142,7 +142,7 @@ const AdminHome = () => {
   const handleSave = (e) => {
     e.preventDefault();
     setYourProfile(yourProfileEditData);
-    notify("Successfully Edited The Teacher");
+    notify("Successfully Edited Your Profile");
     EditYourProfileModal.current.close();
   };
 
